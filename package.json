@@ -1,0 +1,15 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "example quiz",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.35.1"
+  },
+  "scripts": {
+    "sass:watch": "sass --watch $(pwd)/www/public/src/scss:$(pwd)/www/public/build/css"
+ },
+  "author": "Useless Quest",
+  "license": "ISC"
+}

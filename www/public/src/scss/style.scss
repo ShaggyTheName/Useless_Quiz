@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import "config";
+// #### WHOLE SITE STYLING ####
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  background-color: $primary-color;
+  font-family: $font;
+}
+
+// ### NAV STYLING ###
+
+.nav {
+  width: 100%;
+  background-color: $secondary-color;
+
+  img {
+    margin: $spacing;
+    width: 200px;
+    align-items: center;
+  }
+
+  button {
+    margin-bottom: $spacing;
+  }
+}
+
+// ### ALL BOXES STYLING ###
+
+.custom-box {
+  max-width: 700px;
+  background-color: white;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  animation: fadeInRight 1s ease;
+
+  @keyframes fadeInRight {
+    0% {
+      transform: translateX(40px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+}
+
+.custom-box.hide {
+  display: none;
+}
+
+.custom-box::before,
+.custom-box::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+// ### INSTRUCTIONS BOX STYLING ###
+
+.home-box {
+  h3 {
+    font-size: 18px;
+    color: $text-color;
+    font-weight: 500;
+    margin-bottom: $spacing;
+    line-height: 25px;
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 22px;
+    font-weight: 400;
+  }
+
+  span {
+    font-weight: 500;
+  }
+  .btn {
+    margin-top: 20px;
+  }
+}
+
+.btn {
+  padding: $spacing 45px;
+  background-color: $third-color;
+  color: $text-color;
+  border: none;
+  border-radius: 10px;
+  font-family: $font;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+}
+
+// ### QUIZ BOX STYLING ###
+
+.quiz-box {
+  .question-number {
+    font-size: 20px;
+    color: $heading-color;
+    font-weight: 600;
+    border-bottom: 1px solid $dividers;
+    padding-bottom: 10px;
+    line-height: 25px;
+  }
+  .question-text {
+    font-size: 22px;
+    color: $text-color;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 20px 0;
+    margin: 0;
+  }
+  .btn {
+    margin: $spacing 0;
+  }
+  .answers-indicator {
+    border-top: 1px solid $dividers;
+
+    div {
+      height: 40px;
+      width: 40px;
+      display: inline-block;
+      background-color: $dividers;
+      border-radius: 50%;
+      margin-right: 3px;
+      margin-top: $spacing;
+    }
+  }
+  .option-container {
+    .option {
+      background-color: $dividers;
+      padding: 13px $spacing;
+      font-size: 17px;
+      line-height: 22px;
+      color: $text-color;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      text-transform: capitalize;
+      opacity: 0;
+      animation: fadeIn 0.3s ease forwards;
+      overflow: hidden;
+      font-weight: 500;
+
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+.quiz-box .answers-indicator div.correct {
+  background-color: $secondary-color;
+  background-image: url(/www/public/img/correct.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.quiz-box .answers-indicator div.wrong {
+  background-color: $heading-color;
+  background-image: url(/www/public/img/wrong.png);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.quiz-box .option-container .option.already-answered {
+  pointer-events: none;
+}
+.quiz-box .option-container .option.correct {
+  color: white;
+}
+
+.quiz-box .question-number,
+.quiz-box .question-text,
+.quiz-box .next-question-btn,
+.quiz-box .option-container,
+.quiz-box .answers-indicator {
+  width: 100%;
+  float: left;
+}
+
+// ### RESULT PAGE STYLING ###
+
+.result-box {
+  text-align: center;
+
+  h1 {
+    font-size: 36px;
+    line-height: 42px;
+    color: $text-color;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+
+    td {
+      border: 1px solid $dividers;
+      padding: 8px $spacing;
+      font-weight: 500;
+      color: $text-color;
+      width: 50%;
+      text-align: left;
+      font-size: 18px;
+    }
+  }
+  .btn {
+    margin-right: 20px;
+  }
+}
+
+.result-box.hide {
+  display: none;
+}
+
+.footer {
+  width: 100%;
+  height: 30px;
+  background-color: $secondary-color;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 767px) {
+  .result-box {
+    .btn {
+      margin-bottom: $spacing;
+    }
+  }
+  .result-box,
+  .quiz-box,
+  .home-box {
+    margin: $spacing;
+  }
+}
