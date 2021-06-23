@@ -3,7 +3,7 @@
 <script src="/www/public/js/questionsJerome.js" defer></script>
 
 <div class="home-box custom-box">
-        <h3>Instructions</h3>
+        <h3>Useless World Records</h3>
         <p>Total number of questions: <span class="total-questions"></span></p>
         <button type="button" class="btn" onclick="startQuiz()">Start Quiz</button>
     </div>
@@ -59,6 +59,6 @@
         <button type="button" class="btn" onclick="goToHome()">Go To Home</button>
 
     </div>
-    <?php include "../inc/footer.php" ?>
+    <?php include("inc/footer.php") ?>
 </body>
 </html>

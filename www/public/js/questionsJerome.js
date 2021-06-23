@@ -2,28 +2,33 @@
 // Array of Objects
 const quiz = [
     {
-        q:'Which month comes right before june?',
-        options:['May', 'September', 'July', 'August'],
-        answer:0
+        q:'The longest cat jump ever confirmed is 2.847m',
+        options:['Its true', 'Its False'],
+        answer:1
     },
     {
-       q:'What color is a banana?',
-       options:['red', 'yellow', 'white', 'blue'],
-       answer:1
-    },
-    {
-       q:'3 + 4 = 7?',
-       options:['true', 'false'],
+       q:'A brazillian restaurant owner holds the world record for having a total of 4.225 Piercings.',
+       options:['Its true', 'Its False'],
        answer:0
     },
     {
-       q:'What time of day do we have breakfast?',
-       options:['In the Afternoon', 'In the Evening', 'In the Morning'],
-       answer:2
+       q:'The largest collection of rubber ducks consist of 12.514 different kinds',
+       options:['Its true', 'Its False'],
+       answer:1
     },
     {
-       q:'What is 22 + 6?',
-       options:['99', '56', '16', '28'],
-       answer:3
-    }
+       q:'The most canned-drinks opened by a parrot in one minute is 35 cans',
+       options:['Its true', 'Its False'],
+       answer:0
+    },
+    {
+       q:'The most toothpicks ever hold by a beard is 4.500',
+       options:['Its true', 'Its False'],
+       answer:1
+    },
+    {
+      q:'The longest hat in the world is roughly 4.8 Meter high',
+      options:['Its true', 'Its False'],
+      answer:0
+   }
    ]
