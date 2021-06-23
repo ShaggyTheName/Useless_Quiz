@@ -2,28 +2,28 @@
 // Array of Objects
 const quiz = [
     {
-        q:'Which month comes right before june?',
-        options:['May', 'September', 'July', 'August'],
+        q:'Queen Elizabeth II is a trained mechanic',
+        options:['true', 'false'],
         answer:0
     },
     {
-       q:'What color is a banana?',
-       options:['red', 'yellow', 'white', 'blue'],
+       q:'There isnt a city called “Roma” on every continent except Antarctica',
+       options:['true', 'false'],
        answer:1
     },
     {
-       q:'3 + 4 = 7?',
+       q:' In the thirteenth century, Pope Gregory IX basically declared war on the cats of the world.',
        options:['true', 'false'],
        answer:0
     },
     {
-       q:'What time of day do we have breakfast?',
-       options:['In the Afternoon', 'In the Evening', 'In the Morning'],
-       answer:2
+       q:'In 1820 an entire town held a trial against tomatoes',
+       options:['True', 'false'],
+       answer:0
     },
     {
-       q:'What is 22 + 6?',
-       options:['99', '56', '16', '28'],
-       answer:3
+       q:'You can see the great wall of china from space',
+       options:['true', 'false'],
+       answer:2
     }
    ]

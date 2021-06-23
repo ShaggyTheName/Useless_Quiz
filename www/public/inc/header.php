@@ -12,5 +12,4 @@
 <body>
     <div class="nav">
         <center><img src="/www/public/img/Useless-Logo.png" alt="Useless Quiz Logo"></center>
-        <center><button type="button" class="btn">Home</button></center>
     </div>

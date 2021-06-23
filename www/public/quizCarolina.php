@@ -58,7 +58,12 @@
         <button type="button" class="btn" onclick="tryAgainQuiz()">Try Again</button>
         <button type="button" class="btn" onclick="goToHome()">Go To Home</button>
 
+            
+
+
     </div>
+    <center><a href="index.php"><button type="button" class="btn">Back to Main Menu</button></a></center>
+
     <?php include("inc/footer.php") ?>
 </body>
 </html>
