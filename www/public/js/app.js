@@ -88,7 +88,7 @@ function getResult(element){
         //set the red color to the incorrect option
         element.classList.add("wrong");
         element.setAttribute("id", "wrong");
-        document.getElementById("wrong").style.backgroundColor = "#ff00ff";
+        document.getElementById("wrong").style.backgroundColor = "#5E508E";
         // add the indicator to wrong mark
         updateAnswerIndicator("wrong");
 

@@ -3,8 +3,9 @@
 <script src="/www/public/js/questionsCaro.js" defer></script>
 
 <div class="home-box custom-box">
-        <h3>Instructions</h3>
-        <p>Total number of questions: <span class="total-questions"></span></p>
+        <h3>Useless Food Facts</h3>
+        <p><em>This Quiz is about useless food facts. Good Luck Bitch.</em></p>
+        <br>
         <button type="button" class="btn" onclick="startQuiz()">Start Quiz</button>
     </div>
 
@@ -27,8 +28,8 @@
     </div>
 
     <div class="result-box custom-box hide">
-        <h1>Quiz Result</h1>
-        <table>
+        
+        <table style="margin-top:0">
             <tr>
                 <td>Total Question</td>
                 <td><span class="total-questions"></span></td>
@@ -53,12 +54,14 @@
                 <td>Your Total Score</td>
                 <td><span class="total-score"></span></td>
             </tr>
+            <p><img src="img/woody.gif" alt="" style="width:90%; margin-top: 15px; margin-bottom:0"></p><br>
         </table>
 
-        <button type="button" class="btn" onclick="tryAgainQuiz()">Try Again</button>
-        <button type="button" class="btn" onclick="goToHome()">Go To Home</button>
+        <center><button type="button" class="btn" onclick="tryAgainQuiz()">Try Again</button></center>
 
     </div>
+    <center><a href="index.php"><button type="button" id="main" class="btn">Back to Main Menu</button></a></center>
+
     <?php include("inc/footer.php") ?>
 </body>
 </html>

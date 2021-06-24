@@ -2,28 +2,43 @@
 // Array of Objects
 const quiz = [
     {
-        q:'Which month comes right before june?',
-        options:['May', 'September', 'July', 'August'],
-        answer:0
+        q:'The longest cat jump ever confirmed is 2.847m.',
+        options:['Its true', 'Its False'],
+        answer:1
     },
     {
-       q:'What color is a banana?',
-       options:['red', 'yellow', 'white', 'blue'],
-       answer:1
-    },
-    {
-       q:'3 + 4 = 7?',
-       options:['true', 'false'],
+       q:'A brazillian restaurant owner holds the world record for having a total of 4225 Piercings.',
+       options:['Its true', 'Its False'],
        answer:0
     },
     {
-       q:'What time of day do we have breakfast?',
-       options:['In the Afternoon', 'In the Evening', 'In the Morning'],
-       answer:2
+       q:'The largest collection of rubber ducks consist of 9514 different kinds.',
+       options:['Its true', 'Its False'],
+       answer:1
     },
     {
-       q:'What is 22 + 6?',
-       options:['99', '56', '16', '28'],
-       answer:3
-    }
+       q:'There is a parrot which holds the world record in opening cans. He opened 35 cans per minute!',
+       options:['Its true', 'Its False'],
+       answer:0
+    },
+    {
+       q:'The most toothpicks ever hold by a beard is 4500.',
+       options:['Its true', 'Its False'],
+       answer:1
+    },
+    {
+      q:'The longest hat in the world is roughly 4.8 Meter high.',
+      options:['Its true', 'Its False'],
+      answer:0
+   },
+   {
+      q:'During the biggest BBQ in the world 13713 kilos of beef was cooked.',
+      options:['Its true', 'Its False'],
+      answer:0
+   },
+   {
+      q:'A team of six person brew the biggest cappucino in the world. It contained 4250 litre of cappucino.',
+      options:['Its true', 'Its False'],
+      answer:0
+   }
    ]
