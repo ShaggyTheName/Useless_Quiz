@@ -3,9 +3,9 @@
 <script src="/www/public/js/questionsHamza.js" defer></script>
 
 <div class="home-box custom-box">
-        <h3>Instructions</h3>
-        <p>Total number of questions: <span class="total-questions"></span></p>
-        <button type="button" class="btn" onclick="startQuiz()">Start Quiz</button>
+        <p><img src="img/begins.gif" style="width: 100%" alt=""></p><br>
+        <center><p>Total number of questions: <span class="total-questions"></span></p></center>
+        <center><button type="button" class="btn" onclick="startQuiz()">Start Quiz</button></center>
     </div>
 
     <div class="quiz-box custom-box hide">
@@ -27,7 +27,6 @@
     </div>
 
     <div class="result-box custom-box hide">
-        <h1>Quiz Result</h1>
         <table>
             <tr>
                 <td>Total Question</td>
@@ -53,12 +52,16 @@
                 <td>Your Total Score</td>
                 <td><span class="total-score"></span></td>
             </tr>
+            <p><img src="img/wasted.jpg" style="width: 100%" alt=""></p><br>
         </table>
 
         <button type="button" class="btn" onclick="tryAgainQuiz()">Try Again</button>
-        <button type="button" class="btn" onclick="goToHome()">Go To Home</button>
+        
 
     </div>
+
+        <center><a href="index.php"><button type="button" id="main" class="btn">Back to Main Menu</button></a></center>
+
     <?php include("inc/footer.php") ?>
 </body>
 </html>

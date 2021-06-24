@@ -53,12 +53,16 @@
                 <td>Your Total Score</td>
                 <td><span class="total-score"></span></td>
             </tr>
+            <p><img src="img/tenor.gif" style="width: 100%" alt=""></p><br>
         </table>
 
-        <button type="button" class="btn" onclick="tryAgainQuiz()">Try Again</button>
-        <button type="button" class="btn" onclick="goToHome()">Go To Home</button>
+        <center><button type="button" class="btn" onclick="tryAgainQuiz()">Try Again</button></center>
+        
 
     </div>
+
+    <center><a href="index.php"><button type="button" id="main" class="btn">Back to Main Menu</button></a></center>
+
     <?php include("inc/footer.php") ?>
 </body>
 </html>

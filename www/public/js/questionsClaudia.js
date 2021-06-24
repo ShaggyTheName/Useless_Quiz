@@ -2,28 +2,28 @@
 // Array of Objects
 const quiz = [
     {
-        q:'Which month comes right before june?',
-        options:['May', 'September', 'July', 'August'],
+        q:'What is the fastest animal on earth?',
+        options:['Cheetah', 'Tiger', 'Canguru'],
         answer:0
     },
     {
-       q:'What color is a banana?',
-       options:['red', 'yellow', 'white', 'blue'],
+       q:'The dogs have sweat glands in only?',
+       options:['Nose', 'Paws', 'Tongue'],
        answer:1
     },
     {
-       q:'3 + 4 = 7?',
-       options:['true', 'false'],
+       q:'A Komodo dragon is which kind of animal?',
+       options:['Lizard', 'Fish','Bird'],
        answer:0
     },
     {
-       q:'What time of day do we have breakfast?',
-       options:['In the Afternoon', 'In the Evening', 'In the Morning'],
+       q:'Name of the largest mammal of the world?',
+       options:['Elephant', 'Rhinocero', 'Blue Whale'],
        answer:2
     },
     {
-       q:'What is 22 + 6?',
-       options:['99', '56', '16', '28'],
+       q:'Which animal has no vocal cords?',
+       options:['Frog', 'Rabbit', 'Penguins', 'Giraffe'],
        answer:3
     }
    ]
