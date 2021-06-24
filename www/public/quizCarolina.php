@@ -3,10 +3,10 @@
 <script src="/www/public/js/questionsCaro.js" defer></script>
 
 <div class="home-box custom-box">
-        <h3>Useless Food Facts</h3>
+<center><h3>Useless Food Facts</h3>
         <p><em>This Quiz is about useless food facts. Good Luck Bitch.</em></p>
         <br>
-        <button type="button" class="btn" onclick="startQuiz()">Start Quiz</button>
+        <button type="button" class="btn" onclick="startQuiz()">Start Quiz</button></center>
     </div>
 
     <div class="quiz-box custom-box hide">

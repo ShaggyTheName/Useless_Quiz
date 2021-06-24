@@ -13,7 +13,7 @@ const quiz = [
     },
     {
        q:' In the thirteenth century, Pope Gregory IX declared war on all...',
-       options:['women', 'pegans', 'dogs', 'cats'],
+       options:['women', 'pagans', 'dogs', 'cats'],
        answer:3
     },
     {

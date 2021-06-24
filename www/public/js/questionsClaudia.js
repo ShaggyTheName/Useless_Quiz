@@ -3,11 +3,11 @@
 const quiz = [
     {
         q:'What is the fastest animal on earth?',
-        options:['Cheetah', 'Tiger', 'Canguru'],
+        options:['Cheetah', 'Tiger', 'Kangaroo'],
         answer:0
     },
     {
-       q:'The dogs have sweat glands in only?',
+       q:'The dogs have sweat glands in only their...',
        options:['Nose', 'Paws', 'Tongue'],
        answer:1
     },
@@ -18,7 +18,7 @@ const quiz = [
     },
     {
        q:'Name of the largest mammal of the world?',
-       options:['Elephant', 'Rhinocero', 'Blue Whale'],
+       options:['Elephant', 'Rhinoceros', 'Blue Whale'],
        answer:2
     },
     {

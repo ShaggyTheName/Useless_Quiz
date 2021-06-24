@@ -3,9 +3,9 @@
 <script src="/www/public/js/questionsJerome.js" defer></script>
 
 <div class="home-box custom-box">
-        <h3>Useless World Records</h3>
+        <center><h3>Useless World Records</h3>
         <p>Total number of questions: <span class="total-questions"></span></p>
-        <button type="button" class="btn" onclick="startQuiz()">Start Quiz</button>
+        <button type="button" class="btn" onclick="startQuiz()">Start Quiz</button></center>
     </div>
 
     <div class="quiz-box custom-box hide">
