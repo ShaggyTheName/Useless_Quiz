@@ -4,6 +4,8 @@
 
 <div class="home-box custom-box">
         <h3>Useless World Records</h3>
+        <p><em>A simple true or false quiz for a simple mind like you :P</em></p>
+        <br>
         <p>Total number of questions: <span class="total-questions"></span></p>
         <button type="button" class="btn" onclick="startQuiz()">Start Quiz</button>
     </div>
