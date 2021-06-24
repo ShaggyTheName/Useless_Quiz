@@ -44,3 +44,7 @@ Personal Goals:
 - Having fun
 - Respect each other
 - NO STRESS =)
+
+. ⋅ ˚̣- : ✧ : – ⭒ ⊹ ⭒ – OUR TRELLO BOARD – ⭒ ⊹ ⭒ – : ✧ : -˚̣⋅ .
+
+https://trello.com/b/SBcBlljK/uselessquest
