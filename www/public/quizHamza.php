@@ -3,9 +3,9 @@
 <script src="/www/public/js/questionsHamza.js" defer></script>
 
 <div class="home-box custom-box">
-        <p><img src="img/begins.gif" style="width: 100%" alt=""></p><br>
-        <center><p>Total number of questions: <span class="total-questions"></span></p></center>
-        <center><button type="button" class="btn" onclick="startQuiz()">Start Quiz</button></center>
+        <center><p><img src="img/begins.gif" style="width: 100%" alt="Theoden from the movie Lord of the Rings saying It Begins"></p><br>
+        <p>"For the King!"</p>
+        <button type="button" class="btn" onclick="startQuiz()">Start Quiz</button></center>
     </div>
 
     <div class="quiz-box custom-box hide">

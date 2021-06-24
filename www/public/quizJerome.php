@@ -4,7 +4,8 @@
 
 <div class="home-box custom-box">
         <center><h3>Useless World Records</h3>
-        <p>Total number of questions: <span class="total-questions"></span></p>
+        <p><em>A simple true or false quiz about world records for a simple mind like you :P</em></p>
+        <br>
         <button type="button" class="btn" onclick="startQuiz()">Start Quiz</button></center>
     </div>
 

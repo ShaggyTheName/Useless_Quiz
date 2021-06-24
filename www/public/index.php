@@ -2,7 +2,8 @@
 
 <div class="intro">
     <center><h1>Welcome to Useless Quiz!</h1>
-    <p>A site for quizzes about useless facts. Please enjoy our quizzes made by our amazing Developers!</p></center>
+    <p>A site for quizzes about useless facts. Please enjoy our quizzes made by our amazing Developers!</p>
+    <p>Don't take it seriously. Have fun!</p></center>
 </div>
 <!--Hamza's Quiz-->
 <center>

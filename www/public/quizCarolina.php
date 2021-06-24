@@ -4,6 +4,7 @@
 
 <div class="home-box custom-box">
 <center><h3>Useless Food Facts</h3>
+    <img src="img/food.gif" style="width: 100%" alt="Remy from Disney's Ratatouille eating cheese and grapes">
         <p><em>This Quiz is about useless food facts. Good Luck Bitch.</em></p>
         <br>
         <button type="button" class="btn" onclick="startQuiz()">Start Quiz</button></center>

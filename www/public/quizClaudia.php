@@ -4,7 +4,7 @@
 
 <div class="home-box custom-box">
         <center><h3>Useless Animal Facts</h3>
-        <p>Total number of questions: <span class="total-questions"></span></p>
+        <p><img src="img/claudia.gif" style="width: 100%" alt="Hamster from Disney movie jumping up and down excitingly inside his hamster ball, saying Let's begin."></p><br>
         <button type="button" class="btn" onclick="startQuiz()">Start Quiz</button></center>
     </div>
 

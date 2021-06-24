@@ -11,5 +11,5 @@
 </head>
 <body>
     <div class="nav">
-        <center><img src="/www/public/img/Useless-Logo.png" alt="Useless Quiz Logo"></center>
+        <center><a href="index.php"><img src="/www/public/img/Useless-Logo.png" alt="Useless Quiz Logo"></a></center>
     </div>
