@@ -37,6 +37,7 @@ Review: Every day @ 4pm
 Retrospective: 24.06.2021 before handing in finished project. Discuss The Good, The bad & The Ugly
 
 . ⋅ ˚̣- : ✧ : – ⭒ ⊹ ⭒ – GOALS – ⭒ ⊹ ⭒ – : ✧ : -˚̣⋅ .
+
 First Sprint Goal: Understand what we're doing & do a Mockup of our quiz website
 
 Personal Goals:
@@ -50,4 +51,5 @@ Personal Goals:
 https://trello.com/b/SBcBlljK/uselessquest
 
 . ⋅ ˚̣- : ✧ : – ⭒ ⊹ ⭒ – TUTORIAL WE FOLLOWED FOR THE QUIZ – ⭒ ⊹ ⭒ – : ✧ : -˚̣⋅ .
+
 https://www.youtube.com/watch?v=J8QbjXdVl9c
