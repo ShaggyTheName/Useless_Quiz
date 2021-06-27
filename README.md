@@ -48,3 +48,6 @@ Personal Goals:
 . ⋅ ˚̣- : ✧ : – ⭒ ⊹ ⭒ – OUR TRELLO BOARD – ⭒ ⊹ ⭒ – : ✧ : -˚̣⋅ .
 
 https://trello.com/b/SBcBlljK/uselessquest
+
+. ⋅ ˚̣- : ✧ : – ⭒ ⊹ ⭒ – TUTORIAL WE FOLLOWED FOR THE QUIZ – ⭒ ⊹ ⭒ – : ✧ : -˚̣⋅ .
+https://www.youtube.com/watch?v=J8QbjXdVl9c
